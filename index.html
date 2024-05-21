@@ -12,13 +12,16 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header id="cabecalho" class="navbar sticky-top fs-5">
+    <header id="cabecalho" class="navbar sticky-top navbar-expand-lg fs-5">
         <div class="container">
             <h1 class="navbar-brand fs-1 m-0">
                 <i class="bi bi-wrench-adjustable-circle"></i>
                 Parts-Shop</h1>
-            <nav>
-                <ul class="nav nav-pills">
+            <button class="navbar-toggler mb-2" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item">
                         <a href="#sobre-o-site" class="nav-link">
                             <i class="bi bi-house-door-fill me-1"></i>
