@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header id="cabecalho" class="navbar sticky-top fs-5 mb-2">
+    <header id="cabecalho" class="navbar sticky-top fs-5">
         <div class="container">
             <h1 class="navbar-brand fs-1 m-0">
                 <i class="bi bi-wrench-adjustable-circle"></i>
@@ -43,10 +43,22 @@
             </nav>
         </div>
     </header>
-    
     <div data-bs-spy="scroll" data-bs-target="cabecalho">
         <section id="sobre-o-site">
-            
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image bg-img-1 active" data-bs-interval="3000">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-2" data-bs-interval="3000">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#carousel">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-slide="next" data-bs-target="#carousel">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
         </section>
     </div>
 

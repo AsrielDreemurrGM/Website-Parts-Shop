@@ -25,3 +25,18 @@ body {
 .common-text{
     font-family: Merriweather, serif;
 }
+
+.bg-img-1 {
+    background-image: url(images/carousel/externa1.jpg);
+}
+
+.bg-img-2 {
+    background-image: url(images/carousel/interna1.jpg);
+}
+
+.carousel-image {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
