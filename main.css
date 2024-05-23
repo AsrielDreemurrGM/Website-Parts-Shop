@@ -41,7 +41,8 @@ body {
     background-position: center;
 }
 
-#produtos-principais {
+#produtos-principais,
+.nav-estoque {
     background-color: rgb(0, 200, 255);
 }
 
