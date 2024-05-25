@@ -42,7 +42,8 @@ body {
 }
 
 #produtos-principais,
-#catalogo {
+#catalogo,
+#contato {
     background-color: rgb(0, 200, 255);
 }
 
